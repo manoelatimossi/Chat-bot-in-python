@@ -2,7 +2,6 @@ from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
 bot = ChatBot ('Avatar',logic_adapters=[
         'chatterbot.logic.MathematicalEvaluation',
-        'chatterbot.logic.TimeLogicAdapter',
         'chatterbot.logic.BestMatch'
     ])
 conversation = ['Hi','Hello', 'How are you?', 'I am fine','How old are you?', '21 years old']
